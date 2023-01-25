@@ -1,0 +1,524 @@
+/* primary font */
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.btn{
+    text-align: center;
+    
+   
+}
+.btn-primary {
+    /* width: 150px; */
+    color: aliceblue;
+    background-color: orangered;
+    font-size: 20px;
+    font-weight: 600px;
+    height: 64px;
+    padding: 25px 25px 40px 25px;
+    text-align: center;
+    border: 0;
+    border-radius: 6px;
+
+}
+
+
+/* header area */
+.banner-area{
+    /* width: 1440px; */
+    text-align: center;
+}
+header{
+   
+
+height: 1322px;
+
+
+background: rgba(255, 144, 14, 0.1);
+}
+.nav-title{
+    font-weight: 700;
+font-size: 45px;
+}
+/* flex */
+.nav-area{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* flex */
+ul{
+    list-style-type:none;
+    display: flex;
+    gap: 25px;
+    padding: 75px;
+    
+    
+    
+}
+.properties li a{
+    text-decoration: none;
+    
+}
+a{
+    font-weight: 500;
+font-size: 18px;
+color: #424242;
+}
+/* header banner */
+/* .hp{
+    padding: 205px 529px 892px 529px;
+} */
+
+
+.banner-head{
+    font-size: 64px;
+    font-weight: 700;
+   text-align: center;
+ 
+   
+    
+}
+.banner-paragraph{
+font-weight: 400;
+font-size: 16px;
+
+
+
+
+text-align: center;
+
+
+
+color: #727272;
+}
+.banner-image{
+    margin-top: 20px;
+  border-radius: 8px;
+
+}
+.ban-img{
+    /* position: absolute; */
+    width: 1440px;
+    height: 550px;
+    padding: 0px 240px 45px 240px ;
+}
+/* feature area */
+.feature-button{
+    color: aliceblue;
+    background-color: orangered;
+    font-size: 20px;
+    font-weight: 600px;
+    height: 64px;
+    padding: 25px 25px 40px 25px;
+    text-align: center;
+    border: 0;
+    border-radius: 6px;
+}
+/* flex */
+.feature-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+}
+/* grid */
+.feature-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.f-images{
+    border-radius: 6px;
+}
+.feature-details{
+   
+    /* margin: 250px 0; */
+    /* padding: 250px 0 250px 0; */
+    margin-bottom: 5px;
+}
+.feature-head{
+    font-weight: 500;
+font-size: 45px;
+color: #727272;
+margin-top: 250px;
+}
+
+.feature-paragraph{
+    font-weight: 500;
+font-size: 25px;
+color: #727272;
+margin-top: 3px;
+margin-bottom: 10px;
+
+}
+/* feature you gonna love and enjoy */
+.love-enjoy-header{
+    border-left: 5px solid orangered;
+    border-radius: 5px;
+    padding-left: 20px;
+
+}
+.love-enjoy{
+    height: 1059px;
+left: 240px;
+top: 2245px;
+}
+/* flex */
+.lovable-feature-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 54px;
+    margin-top: 130px;
+}
+/* flex */
+.love-enjoy-details{
+width: 586px;
+height: 1059px;
+margin-bottom: 30px;
+display: flex;
+flex-direction: column;
+gap:55px;
+}
+.lovable-feature-img{
+width: 800px;
+/* height: 1059px; */
+}
+.enjoy-button{
+    margin-top: -140px;
+    margin-left: -80px;
+}
+.ebutton{
+    color: aliceblue;
+    background-color: orangered;
+    font-weight: 700;
+font-size: 50px;
+    width: 342px;
+height: 200px;
+left: 880px;
+top: 3104px;
+    padding: 0px 25px 20px 5px;
+    text-align: center;
+    border: 0;
+    border-radius: 12px;
+   
+}
+
+.l-head{
+font-weight: 700;
+font-size: 45px;
+}
+.love-para{
+    font-weight: 400;
+font-size: 16px;
+}
+.love-para-deatils{
+    padding-left:20px ;
+    /* margin-bottom: 30px; */
+}
+.para-head{
+    font-weight: 600;
+font-size: 20px;
+color: black;
+
+}
+.para-details{
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;
+}
+/* facts section */
+
+.facts-head-para{
+    padding: 180px 0 0 260px;
+}
+.fact-head{
+    font-weight: 700;
+font-size: 45px;
+}
+.fact-para{
+    font-weight: 700;
+font-size: 20px;
+color: #424242;
+
+}
+.fact-div{
+    box-sizing: border-box;
+    border: 1px solid yellowgreen;
+    border-radius: 13px;
+    width: 241.83px;
+height: 241.83px;
+text-align: center;
+padding: 30px;
+margin-right: 50px;
+align-items: center;
+
+
+
+
+    
+}
+/* grid */
+.fact-icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:50px ;
+   
+
+}
+.icon-facts{
+    height: 300px;
+    /* width: 1200px; */
+    /* text-align: center; */
+    /* border: 2px solid black; */
+    padding: 70px 344px 0 400px;
+}
+.fact-h2{
+    font-weight: 600;
+font-size: 45px;
+margin-bottom: 1px;
+margin-top: -3px;
+}
+.fact-desc{
+    font-weight: 600;
+    font-size: 20px;
+}
+.fact-img{
+    margin-bottom: 1px;
+    width: 45.22px;
+height: 45.22px;
+
+}
+.fact-div:hover{
+    /* transform: rotate(180deg);
+    transform:rotate3d(1, 2, 3, 90deg);
+    transform:rotate3d(1, 2, 3, 10deg) scale3d(2.5, 1.2, 0.3); */
+    transform: skew(10deg, 10deg) scale3d(1.5, 1.2, 0.3);
+}
+
+
+/* sponsor part */
+.sponsor-desc{
+    text-align: center;
+}
+/* flex */
+.sponsor-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 150px;
+    margin-top: 60px;
+ 
+}
+.sponsor-head{
+    font-weight: 700;
+font-size: 45px;
+
+}
+.sponsor-para{
+font-weight: 400;
+font-size: 16px;
+}
+.sponsor-img{
+    filter: grayscale(100%);
+}
+/* footer */
+.footer{
+    width: 1440px;
+height: 100px;
+
+background: #FFF4E7;
+border-radius: 8px;
+margin: 30px 240px 20px 240px;
+
+
+}
+.footer-para{
+    text-align: center;
+   padding: 30px 0;
+}
+.hide{
+    display: none;
+}
+
+/* Responsive */
+@media screen and (max-width:576px) {
+    /* fact */ 
+    .facts{
+        
+        margin-top: 800px;
+    }
+    .fact-icons{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:10px ;
+        margin-bottom: 20px;
+        
+       
+    
+    }
+    .icon-facts{
+    padding-left: 10px;
+    }
+    .facts-head-para{
+        padding-left: 10px;
+    }
+    /* sponsor */
+    .sponsor{
+        margin-top: 780px;
+    }
+
+    .sponsor-icon{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+        gap: 40px;
+        padding-left: 10px;
+        
+     
+    }
+    .sponsor-head{
+        text-align: left;
+        font-weight: 700;
+    font-size: 25px;
+    padding-left: 10px;
+    
+    }
+    .sponsor-para{
+        text-align: left;
+        padding-left: 10px;
+    font-weight: 400;
+    font-size: 13px;
+    }
+    .sponsor-img{
+        filter:none;
+    }
+    /* footer */
+    .footer{
+    width: 200px;
+    background-color:white;
+    padding-left: 10px;
+    
+    margin:0;
+    
+    
+    }
+    .footer-para{
+        text-align: left;
+       
+       padding: 30px 0;
+    }
+     /* gonna love the features */
+    .lovable-feature-container{
+        display: flex;
+       flex-direction: column;
+        margin-top: 50px;
+        gap: 54px;
+      
+    }
+    .lovable-feature-img{
+        padding-left: 10px;
+        width:90%;
+        margin-top: 200px;
+        
+        /* height: 1059px; */
+        }
+        .enjoy-button{
+           margin:0;
+        }
+        .love-para-deatils{
+            width: 250px;
+            padding-left:20px ;
+            /* margin-bottom: 30px; */
+        }
+        .love-enjoy-header{
+            border-left: 5px solid orangered;
+            border-radius: 5px;
+            padding-left: 20px;
+            width: 300px;
+        
+        }
+        .love-para{
+            width: 250px;
+            padding-left:20px ; 
+        }
+         /* feature */
+         .feature-container{
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            padding-left: 10px;
+            
+        }
+        /* grid */
+        .feature-images{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 10px;
+            padding-left: 3px;
+        }
+        .list-of-features{
+            margin-top: 500px;
+        }
+/* header */
+header{
+    background-color: white;
+}
+.nav-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+/* flex */
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    
+    
+    
+    
+}
+.ban-img{
+    /* position: absolute; */
+    width: 90%;
+    padding: 0;
+    
+}
+.nav-title{
+font-weight: 700;
+font-size: 45px;
+text-align: center;
+}
+.banner-head{
+    font-size: 30px;
+    font-weight: 700;
+   text-align: center;
+ 
+   
+    
+}
+.banner-paragraph{
+font-weight: 400;
+font-size: 16px;
+
+
+
+
+text-align: center;
+
+
+
+color: #727272;
+}
+
+
+}
+
+
